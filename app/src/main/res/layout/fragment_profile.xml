@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="45dp"
+    android:background="@drawable/fragment_background"
+    tools:context=".ProfileFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/fragment_background"
+        android:padding="15dp"
+        android:layout_alignParentLeft="true">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <Button
+            android:id="@+id/logout_btn"
+            android:layout_width="149dp"
+            android:layout_height="96dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="37dp"
+            android:text="LOGOUT" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_circleimageview"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/common_google_signin_btn_icon_dark"
+            tools:src="@tools:sample/avatars"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/profile_textname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="173dp"
+            android:text="USERNAME"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
